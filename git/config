@@ -1,0 +1,9 @@
+[user]
+    name = Shivam Singh
+    email = shivmsingh02@gmail.com
+[core]
+    editor = nvim
+[github]
+    user = shivmsingh
+[color]
+    ui = true
