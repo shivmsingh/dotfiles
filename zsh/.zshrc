@@ -17,9 +17,16 @@ compinit
 _comp_options+=(globdots)
 
 # Aliases
-alias ls="ls --color=auto"
-alias ll="ls -l"
-alias cp="cp -v"
+alias ls="ls -lAhF --color=auto"
+alias grep="grep --color=auto"
+alias egrep="egrep --color=auto"
+alias fgrep="fgrep --color=auto"
+alias mv="mv -iv"
+alias cp="cp -riv"
+alias mkdir="mkdir -vp"
+alias rm="rm -i"
+alias df="df -h"
+alias free="free -m"
 
 # Starship Prompt
 eval "$(starship init zsh)"
